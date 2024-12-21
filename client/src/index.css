@@ -120,3 +120,43 @@ a.edit:hover {
   color: rgba(255, 255, 255, 1); /* Jasny kolor przy najechaniu */
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Subtelny neon */
 }
+.weather-bar {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b); /* Gradient pasujący do jumbotronu */
+  color: #ffffff; /* Jasny kolor tekstu */
+  padding: 15px 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Subtelny cień */
+  margin-bottom: 20px;
+}
+
+.weather-bar img {
+  width: 50px; /* Ustalona szerokość */
+  height: 50px; /* Ustalona wysokość */
+  border-radius: 50%; /* Idealne zaokrąglenie */
+  border: 2px solid rgba(255, 255, 255, 0.8); /* Jasna ramka */
+  object-fit: cover; /* Dopasowanie obrazu do okrągłego kształtu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Cień dla lepszego efektu wizualnego */
+}
+
+.weather-bar strong {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Subtelny cień tekstu */
+}
+
+.weather-bar p {
+  margin: 0;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8); /* Delikatny kontrast */
+}
+
+.weather-bar:hover {
+  background: linear-gradient(135deg, #d76d77, #ffaf7b, #3a1c71); /* Zmiana gradientu na hover */
+  transform: scale(1.02); /* Subtelne powiększenie */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Głębszy cień na hover */
+}

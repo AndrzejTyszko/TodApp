@@ -74,7 +74,6 @@ npm install
 3.Install dependencies for frontend:
 
   ```bash
-Skopiuj kod
 cd client
 npm install
   ```

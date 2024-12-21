@@ -30,6 +30,7 @@ const InputTodo = () => {
         <input
           type="text"
           className="form-control"
+          placeholder="Submit your reminder"
           value={description}
           onChange={e => {
             setDescription(e.target.value);
