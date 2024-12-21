@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Orbitron', sans-serif; /* Nowoczesna czcionka */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Ciemny gradient */
+  color: #e0e0e0; /* Jasny kolor tekstu */
+  overflow: hidden; /* Wyłącz przewijanie */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 99%; /* Automatyczne skalowanie do szerokości okna */
+  height: 99%; /* Automatyczne skalowanie do wysokości okna */
+  max-height: 95vh; /* Maksymalna wysokość */
+  background: rgba(40, 40, 70, 0.9); /* Transparentne tło */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden; /* Brak przewijania strony głównej */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Tylko przewijanie wpisów */
+  background: rgba(255, 255, 255, 0.1); /* Subtelne tło */
+  border-radius: 16px;
+  margin: 10px;
+}
+
+.content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Styl uchwytu przewijania */
+  border-radius: 6px;
+}
+
+.content::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Tło suwaka */
+}
+
+.footer {
+  background: #101010;
+  color: #61dafb;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff4081;
+  text-shadow: 3px 3px 8px rgba(255, 64, 129, 0.6); /* Efekt neonowy */
+}
+
+.jumbotron {
+  padding: 3rem;
+  max-height: 80%;
+  overflow-y: auto; /* Przewijanie treści w jumbotronie */
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+  color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron::-webkit-scrollbar {
+  width: 10px;
+}
+
+.jumbotron::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ffaf7b, #d76d77); /* Styl uchwytu przewijania */
+  border-radius: 6px;
+}
+
+button {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.6);
+}
+
+a {
+  color: rgba(118, 255, 3, 0.8); /* Przejrzysty zielony kolor */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: rgba(0, 230, 118, 1); /* Jasna zieleń przy najechaniu */
+  transform: scale(1.2);
+}
+
+a.edit {
+  color: rgba(255, 255, 255, 0.6); /* Przejrzysty napis "Edit" */
+  font-weight: bold;
+}
+
+a.edit:hover {
+  color: rgba(255, 255, 255, 1); /* Jasny kolor przy najechaniu */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Subtelny neon */
+}
