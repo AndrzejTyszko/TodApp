@@ -124,7 +124,7 @@ The main functionalities (creating, viewing, editing, and deleting reminders) ar
 This project was inspired by the need for a simple and effective daily reminder application. Special thanks to:
 
 - React.js and Node.js communities for the resources and support.
-- Tailwind CSS for providing clean and responsive UI libraries.
+- Bootstrap CSS for providing clean and responsive UI libraries.
 
 ## Contact
-Created by [@peruzynski](https://github.com/peruzynski)
+Created by [@peruzynski](https://github.com/peruzynski, [@andrzejtyszko] https://github.com/andrzejtyszko)
