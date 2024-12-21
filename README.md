@@ -63,8 +63,8 @@ The application aims to help users stay organized and ensure they do not forget 
 
 ### Installation Steps:
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/peruzynski/DailyReminder.git](https://github.com/peruzynski/DailyReminder.git)
+  ```bash
+git clone https://github.com/peruzynski/DailyReminder.git
 
 2. Install dependencies for backend:
   ```bash
