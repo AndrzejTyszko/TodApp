@@ -47,10 +47,10 @@ The application aims to help users stay organized and ensure they do not forget 
  
 
 ### Reminder List
-![Reminder List](link_to_screenshot_one)
+![Reminder List](main.png)
 
-### Create Reminder
-![Create Reminder](link_to_screenshot_two)
+### Edit Reminder
+![Edit Reminder](edit.png)
 
 ---
 
