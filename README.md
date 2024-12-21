@@ -81,15 +81,29 @@ npm install
 4.Run backend:
 
 ```bash
-cd backend
+cd server
 node index.js
-# Backend runs on: http://localhost:5001
+# server runs on: http://localhost:5001
+Expected output:
+server has started on port 5001
 ```
 5.Run frontend:
 ```bash
-cd frontend
+cd client
 npm start
-# Frontend runs on: http://localhost:3000
+# Client runs on: http://localhost:3000
+Expected output:
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.100.29:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+webpack compiled successfully
 ```
 
 ## Project Status
