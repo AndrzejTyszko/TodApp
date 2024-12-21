@@ -72,13 +72,11 @@ cd server
 npm install
   ```
 3.Install dependencies for frontend:
-
   ```bash
 cd client
 npm install
   ```
 4.Run backend:
-
 ```bash
 cd server
 node index.js
